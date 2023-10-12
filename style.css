@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bubblegum+Sans&family=Knewave&family=Sigmar+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* home css */
+#home-header {
+  background-image: url(./images/chaimasala.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(2px);
+
+  /* position: absolute; */
+}
+.navbar {
+  height: 55px;
+}
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar-nav a:hover {
+  border-bottom: 2px solid #fc4a1a;
+  border-radius: 12px;
+  color: #fc4a1a;
+}
+
+#active {
+  border-bottom: 2px solid #fc4a1a;
+  border-radius: 12px;
+  color: #fc4a1a;
+  font-weight: bold;
+}
+
+
+#home-content {
+  padding: 12% 2%;
+  width: 66%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  color: #614223;
+  text-align: center;
+}
+
+#home-btn {
+  background-color: #614223;
+  color: white;
+}
+#home-btn:hover {
+  background-color: white;
+  color: #614223;
+  border: 1px solid #614223;
+}
+.navbar-nav a {
+  color: white;
+  font-size: 17px;
+}
+
+#home-heading {
+  font-family: "Kalam", cursive;
+  font-size: 60px;
+}
+#whitecup {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+#whitecup:hover {
+  transform: scale(1.25);
+}
+
+#table-form{
+  width: 40%;
+  /* background-color: #624d37; */
+  box-shadow: 0px 0px 15px 3px black;
+  padding: 2%;
+  margin: auto;
+  border-radius: 15px;
+  display: none;
+  position: fixed;
+  top: 13%;
+  z-index: 2;
+  left: 30%;
+  background-color: white;
+
+}
+.overlay{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.date-time{
+  display: flex;
+justify-content: space-between;
+}
+#date{
+  width: 68%;
+}
+#time{
+  width: 28%;
+}
+.table input{
+  padding: 2%;
+}
+.table-button button{
+  width: 200px;
+  margin: auto;
+  display: block;
+  border: none;
+  background-color: #33291f;
+  color: antiquewhite;
+  border-radius: 15px;
+  
+
+}
+.table-button{
+  padding: 15px;
+  cursor: pointer;
+}
+
+#table-form  i{
+ 
+ cursor: pointer;
+ float: right;
+}
+#close-button{
+  padding: 8px;
+}
+/* home css end */
+#about-header {
+  background-image: url(./images/bbtea.png);
+  height: 40vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(1px);
+  min-height: 200px;
+}
+.about-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8% 0%;
+  text-align: center;
+  color: white;
+  font-family: 'Bowlby One SC';
+}
+#about-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+
+  /* padding: 2% 0; */
+}
+#about-icon {
+  height: 100px;
+  width: 100px;
+
+  /* margin: auto; */
+}
+#about-icon:hover {
+  transform: rotate(-25deg);
+}
+#about-paragraph {
+  padding: 0 3%;
+}
+#about-heading {
+  font-family: 'Knewave';
+}
+.about-image1 {
+  height: 300px;
+  /* background-color: blueviolet; */
+  /* margin-right: 7px; */
+}
+#back {
+  background-color: rgb(240, 232, 222);
+  /* padding: 2% 0%; */
+}
+
+#aboutrow3{
+  padding: 3%;
+  text-align: center;
+}
+.customer-content h1{
+  font-family:  'Knewave';
+}
+
+
+.customer-img{
+  border: 5px solid rgb(240, 232, 222);
+  height: 250px;
+  width: 250px;
+  margin: auto;
+
+  border-radius: 50%;
+}
+.customer-text{
+  padding: 1%;
+}
+.img-text{
+   background-color: #33291f;
+   color: white;
+   padding: 3%;
+   border-radius: 20px;
+   box-shadow: 10px 10px 20px black;
+}
+
+
+.customer-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.about-image1 img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 10px 10px grey;
+}
+.about-image1 img:hover {
+  transform: translate(0px, 5px);
+}
+
+.menu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8% 0%;
+  text-align: center;
+  color: white;
+  font-family: 'Bowlby One SC';
+}
+#menu-header {
+  background-image: url(./images/browntea.jpeg);
+  height: 30vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(1px);
+  min-height: 200px;
+}
+#menu-content {
+  background-color: rgb(240, 232, 222);
+  /* background-color: blue; */
+  /* height: 50vh; */
+  text-align: center;
+}
+#menu-row1 {
+  padding: 1.25% 7%;
+  font-family: 'Signika', sans-serif;
+}
+#menu-row2 {
+  /* background-color: aqua; */
+  
+
+  padding: 1%;
+}
+#menu-row1 h2 {
+  font-family: 'Knewave';
+}
+/* .col-4:hover{ */
+/* background-color:red; */
+/* transform: scale(1.25); */
+/* } */
+
+.menu-image {
+  height: 100%;
+  width: 100%;
+}
+#menu-row3 {
+  padding: 0px 7%;
+}
+#menu-row3 h2 {
+  font-family: 'Knewave';
+}
+
+#menu1 {
+  /* height: 40vh; */
+  /* background-color: brown; */
+  padding: 1%;
+}
+#menu2 {
+  /* height: 40vh; */
+  /* background-color: cadetblue; */
+  padding: 1%;
+}
+.menu-list-content p,
+h5 {
+  margin-left: 25px;
+  text-align: start;
+}
+.menu-list-content h5 {
+  text-transform: uppercase;
+}
+#menu-img {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(57, 56, 56);
+  border-radius: 50%;
+}
+#menu-img :hover {
+  transform: translate(20px);
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+}
+#team-header {
+  background-image: url(./images/chailate.jpg);
+  height: 30vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(1px);
+  min-height: 200px;
+}
+.team-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6% 0;
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Bowlby One SC';
+}
+.whole{
+  /* background-color: #614223; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin: 2%;
+
+}
+.background {
+  background-color: rgb(240, 232, 222);
+}
+.team-content{
+  text-align: center;
+  margin: 2%;
+}
+.team-content h1{
+  font-weight: lighter;
+  font-size: 50px;
+}
+.part{
+  height: 400px;
+  width: 400px;
+  /* background-color: black; */
+  text-align: center;
+  padding: 1.75%;
+}
+.part:hover .team-image{
+   border-radius: 10px; 
+   background-color: #624d37;
+   border: none;
+}
+.team-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  /* background-color: #624d37; */
+  border: 1px solid black;
+  padding: 4%;
+  transition: .5s;
+  box-shadow: 5px 5px 20px black;
+}
+.team-img1{
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  transition: .5s;
+  /* box-shadow: 0px 0px 20px black; */
+}
+.part:hover .team-img1{
+  border-radius: 10px;
+  transform: translateY(-90px);
+  height: 85%;
+  width: 85%;
+}
+.image-description{
+  opacity: 0;
+}
+.part:hover .image-description{
+  opacity: 1;
+  transform: translateY(-130px);
+  color: white;
+} 
+.image-description h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.image-description p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.team-icon i{
+  font-size: 25px;
+  margin:  0% 3%;
+}
+
+
+
+#loader {
+  background-color: #614223;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contact-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6% 0;
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Bowlby One SC';
+}
+
+#row-contact {
+  height: 60vh;
+
+  margin: 2%;
+}
+.detail {
+  display: flex;
+  align-items: center;
+}
+.column {
+  padding: 2%;
+}
+.detail i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.detail p {
+  margin-top: 12px;
+}
+.right-content {
+  padding: 2%;
+}
+.form {
+  margin: 3%;
+}
+input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.namemail {
+  width: 49.3%;
+}
+button {
+  width: 30%;
+  padding: 1%;
+}
+#button {
+  margin-top: 5%;
+}
+.left-content {
+  background-color: #eef2f3;
+  padding: 2%;
+  border-radius: 20px;
+}
+#map-size {
+  width: 100%;
+}
+
+
+@media (max-width: 450px) {
+  #home-content {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 950px) {
+  .customer-img{
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width:800px){
+  #table-form{
+    width: 70%;
+    top: 17%;
+    left: 16%;
+
+  }
+}
+
